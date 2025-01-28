@@ -1,13 +1,15 @@
-import { WriterCard } from "./(cmps)/writer-card"
+import { WriterCarousel } from "./(cmps)/writers-carousel"
 
 const Home = () => {
-  return <section>
-    <div className="flex align-center main-title">
+  return <section className="home-page">
+    <section className="flex align-center main-title">
       <h1>כותבי התורים</h1>
-    </div>
-    <WriterCard />
-    <WriterCard />
-    <WriterCard />
+    </section>
+
+    <section className="main-writers-container">
+      <WriterCarousel />
+    </section>
+
   </section>
 }
 

@@ -1,0 +1,21 @@
+@use '../variables' as *;
+
+.writer-list{
+    .swiper-wrapper {
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    
+    .swiper-slide {
+        padding: 0.5rem 0;
+    }
+    
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: $red;
+        &::after{
+            font-size: 25px;
+            font-weight: 900;
+        }
+    }
+}

@@ -1,3 +1,60 @@
+@use '../variables' as *;
+
 .writer-card{
-    
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px;
+    max-width: 320px;
+    .writer-img-container{
+        img{
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            border: 2px solid $red;
+        }
+    }
+    .main-text{
+        margin-inline-start: 1rem;
+        .writer-name{
+            font-weight: 900;
+            font-size: $writer-name;
+        }
+        .post{
+            p{
+                color: $gray;
+                font-weight: 700;
+                font-size: $post-title;
+                text-align: justify;
+            }
+            a, .read-more{
+                align-self: flex-end;
+                font-size: $read-more;
+                font-weight: 700;
+                color: $red;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .writer-card{
+        max-width: 200px;
+        flex-direction: column;
+        text-overflow: ellipsis;
+        .writer-img-container{
+            align-self: center;
+        }
+        .main-text{
+            margin-inline-start: 0;
+            
+            .writer-name{
+                text-align: center;
+            }
+            .post{
+                p{}
+                a{
+                    align-self: center;
+                }
+            }
+        }
+    }
 }

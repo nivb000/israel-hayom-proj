@@ -1,17 +1,28 @@
 @use '../variables' as *;
 
-.main-title {
-    margin-block-end: 1rem;
-    h1 {
-        font-size: $big-title;
-        color: $black;
-        &::before {
-            content: "";
-            transform: translateY(10%); 
-            display: inline-block;
-            width: 5px; 
-            height: 20px; 
-            background-color: $red; 
+.home-page {
+    padding-block-start: 3rem;
+    padding-inline-start: 3rem;
+
+    .main-title {
+        margin-block-end: 1rem;
+
+        h1 {
+            font-size: $big-title;
+            color: $black;
+
+            &::before {
+                content: "";
+                transform: translateY(10%);
+                display: inline-block;
+                width: 5px;
+                height: 20px;
+                background-color: $red;
+            }
         }
+    }
+
+    .main-writers-container {
+        max-width: 1200px;
     }
 }
