@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-// TODO: CLICK ON WRITER IMAGE OR READ MORE NAVIGATE TO WRITER PAGE
+// TODO: THE RUNNING TEXT SHOULD BE WRITER LAST POSTS TITLE
 export const WriterCard = () => {
     return <article className="flex writer-card">
         <div className="writer-img-container">
