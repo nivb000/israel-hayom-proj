@@ -1,0 +1,141 @@
+{
+    "writers": [
+        {
+            "id": 1,
+            "name": "Sarah Johnson",
+            "imageUrl": "https://example.com/images/sarah.jpg",
+            "pageUrl": "https://example.com/writers/sarah-johnson"
+        },
+        {
+            "id": 2,
+            "name": "Michael Chen",
+            "imageUrl": "https://example.com/images/michael.jpg",
+            "pageUrl": "https://example.com/writers/michael-chen"
+        },
+        {
+            "id": 3,
+            "name": "Emma Williams",
+            "imageUrl": "https://example.com/images/emma.jpg",
+            "pageUrl": "https://example.com/writers/emma-williams"
+        },
+        {
+            "id": 4,
+            "name": "David Rodriguez",
+            "imageUrl": "https://example.com/images/david.jpg",
+            "pageUrl": "https://example.com/writers/david-rodriguez"
+        },
+        {
+            "id": 5,
+            "name": "Lisa Thompson",
+            "imageUrl": "https://example.com/images/lisa.jpg",
+            "pageUrl": "https://example.com/writers/lisa-thompson"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "The Future of Technology",
+            "createdAt": "2024-01-15T08:30:00Z",
+            "postUrl": "https://example.com/posts/future-technology",
+            "writerId": 1
+        },
+        {
+            "id": 2,
+            "title": "Understanding AI Revolution",
+            "createdAt": "2024-01-16T10:15:00Z",
+            "postUrl": "https://example.com/posts/ai-revolution",
+            "writerId": 1
+        },
+        {
+            "id": 3,
+            "title": "Digital Transformation Trends",
+            "createdAt": "2024-01-17T14:20:00Z",
+            "postUrl": "https://example.com/posts/digital-transformation",
+            "writerId": 1
+        },
+        {
+            "id": 4,
+            "title": "Sustainable Development Goals",
+            "createdAt": "2024-01-15T09:45:00Z",
+            "postUrl": "https://example.com/posts/sustainable-development",
+            "writerId": 2
+        },
+        {
+            "id": 5,
+            "title": "Green Energy Solutions",
+            "createdAt": "2024-01-16T11:30:00Z",
+            "postUrl": "https://example.com/posts/green-energy",
+            "writerId": 2
+        },
+        {
+            "id": 6,
+            "title": "Climate Change Impact",
+            "createdAt": "2024-01-17T15:20:00Z",
+            "postUrl": "https://example.com/posts/climate-change",
+            "writerId": 2
+        },
+        {
+            "id": 7,
+            "title": "Modern Web Development",
+            "createdAt": "2024-01-15T10:00:00Z",
+            "postUrl": "https://example.com/posts/web-development",
+            "writerId": 3
+        },
+        {
+            "id": 8,
+            "title": "JavaScript Best Practices",
+            "createdAt": "2024-01-16T13:45:00Z",
+            "postUrl": "https://example.com/posts/javascript-practices",
+            "writerId": 3
+        },
+        {
+            "id": 9,
+            "title": "Frontend Frameworks Comparison",
+            "createdAt": "2024-01-17T16:30:00Z",
+            "postUrl": "https://example.com/posts/frontend-frameworks",
+            "writerId": 3
+        },
+        {
+            "id": 10,
+            "title": "Data Science Fundamentals",
+            "createdAt": "2024-01-15T11:15:00Z",
+            "postUrl": "https://example.com/posts/data-science",
+            "writerId": 4
+        },
+        {
+            "id": 11,
+            "title": "Machine Learning Applications",
+            "createdAt": "2024-01-16T14:20:00Z",
+            "postUrl": "https://example.com/posts/machine-learning",
+            "writerId": 4
+        },
+        {
+            "id": 12,
+            "title": "Big Data Analytics",
+            "createdAt": "2024-01-17T17:45:00Z",
+            "postUrl": "https://example.com/posts/big-data",
+            "writerId": 4
+        },
+        {
+            "id": 13,
+            "title": "Digital Marketing Strategies",
+            "createdAt": "2024-01-15T12:30:00Z",
+            "postUrl": "https://example.com/posts/digital-marketing",
+            "writerId": 5
+        },
+        {
+            "id": 14,
+            "title": "Social Media Optimization",
+            "createdAt": "2024-01-16T15:40:00Z",
+            "postUrl": "https://example.com/posts/social-media",
+            "writerId": 5
+        },
+        {
+            "id": 15,
+            "title": "Content Marketing Tips",
+            "createdAt": "2024-01-17T18:15:00Z",
+            "postUrl": "https://example.com/posts/content-marketing",
+            "writerId": 5
+        }
+    ]
+}
