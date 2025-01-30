@@ -1,57 +1,88 @@
 @use '../variables' as *;
 
-.writer-card{
+.writer-card {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 5px;
-    max-width: 320px;
-    .writer-img-container{
-        img{
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .writer-img-container {
+        margin-inline-end: 0.7rem;
+
+        img {
             border-radius: 50%;
             object-fit: cover;
             object-position: center;
             border: 2px solid $red;
         }
     }
-    .main-text{
-        margin-inline-start: 1rem;
-        .writer-name{
+
+    .main-text {
+        width: 100%;
+
+        .writer-name {
             font-weight: 900;
             font-size: $writer-name;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
-        .post{
-            p{
+
+        .post {
+            width: 100%;
+            text-align: center;
+
+            .post-title {
                 color: $gray;
                 font-weight: 700;
                 font-size: $post-title;
                 text-align: justify;
+                align-self: flex-start;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
-            a, .read-more{
+
+            a,
+            .read-more {
                 align-self: flex-end;
                 font-size: $read-more;
                 font-weight: 700;
                 color: $red;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
 }
 
-@media (max-width: 900px){
-    .writer-card{
+@media (max-width: 900px) {
+    .writer-card {
         max-width: 200px;
         flex-direction: column;
         text-overflow: ellipsis;
-        .writer-img-container{
+
+        .writer-img-container {
             align-self: center;
         }
-        .main-text{
+
+        .main-text {
             margin-inline-start: 0;
-            
-            .writer-name{
+
+            .writer-name {
                 text-align: center;
             }
-            .post{
-                p{}
-                a{
+
+            .post {
+                p {}
+
+                a {
                     align-self: center;
                 }
             }

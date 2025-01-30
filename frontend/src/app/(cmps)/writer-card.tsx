@@ -1,23 +1,27 @@
+import { Post } from "@/interfaces/post"
+import { Writer } from "@/interfaces/writer"
 import Image from "next/image"
 import Link from "next/link"
 // TODO: THE RUNNING TEXT SHOULD BE WRITER LAST POSTS TITLE
-export const WriterCard = () => {
+export const WriterCard = ({ writer, posts }: { writer: Writer, posts: Post[] }) => {
+
     return <article className="flex writer-card">
         <div className="writer-img-container">
-            <Link href="/writer-page">
-                <Image
-                    src="https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    width={100}
-                    height={100}
-                    alt="פרופיל-כתב"
-                />
-            </Link>
+            <Image
+                src={writer.imageUrl}
+                width={100}
+                height={100}
+                alt="פרופיל-כתב"
+            />
         </div>
         <section className="main-text">
-            <h3 className="writer-name">שם כתב מלא</h3>
+            <Link href={writer.pageUrl} target="_blank" ><h3 className="writer-name">{writer.name}</h3></Link>
             <div className="flex col post">
-                <p>טקסט רץ טקסט רץ  טקסט רץ טקסט רץ טקסט רץ טקסט רץ טקסט רץ טקסט רץ</p>
-                <Link href="/writer-page">
+                {posts.map((post: Post) => <Link href={post.postUrl} key={post._id} className="post-title" target="_blank" >
+                 {post.title}
+                </Link>
+                )}
+                <Link href={writer.pageUrl} target="_blank" >
                     <span className="read-more">קרא עוד</span>
                 </Link>
             </div>

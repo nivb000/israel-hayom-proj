@@ -2,139 +2,139 @@
     "writers": [
         {
             "id": 1,
-            "name": "Sarah Johnson",
-            "imageUrl": "https://example.com/images/sarah.jpg",
-            "pageUrl": "https://example.com/writers/sarah-johnson"
+            "name": "יובל אטיאס",
+            "imageUrl": "https://plus.unsplash.com/premium_photo-1688572454849-4348982edf7d?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "pageUrl": "https://example.com/writers/yuval-atias"
         },
         {
             "id": 2,
-            "name": "Michael Chen",
-            "imageUrl": "https://example.com/images/michael.jpg",
+            "name": "מיכאל חן",
+            "imageUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww",
             "pageUrl": "https://example.com/writers/michael-chen"
         },
         {
             "id": 3,
-            "name": "Emma Williams",
-            "imageUrl": "https://example.com/images/emma.jpg",
-            "pageUrl": "https://example.com/writers/emma-williams"
+            "name": "רועי פרידמן",
+            "imageUrl": "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "pageUrl": "https://example.com/writers/roee-friedman"
         },
         {
             "id": 4,
-            "name": "David Rodriguez",
-            "imageUrl": "https://example.com/images/david.jpg",
-            "pageUrl": "https://example.com/writers/david-rodriguez"
+            "name": "איתי סבן",
+            "imageUrl": "https://images.unsplash.com/photo-1639747280804-dd2d6b3d88ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "pageUrl": "https://example.com/writers/itay-saban"
         },
         {
             "id": 5,
-            "name": "Lisa Thompson",
-            "imageUrl": "https://example.com/images/lisa.jpg",
-            "pageUrl": "https://example.com/writers/lisa-thompson"
+            "name": "עומר שמואלי",
+            "imageUrl": "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "pageUrl": "https://example.com/writers/omer-shmueli"
         }
     ],
     "posts": [
         {
             "id": 1,
-            "title": "The Future of Technology",
+            "title": "עתיד הטכנולוגיה",
             "createdAt": "2024-01-15T08:30:00Z",
             "postUrl": "https://example.com/posts/future-technology",
             "writerId": 1
         },
         {
             "id": 2,
-            "title": "Understanding AI Revolution",
+            "title": "מהפכת ה AI",
             "createdAt": "2024-01-16T10:15:00Z",
             "postUrl": "https://example.com/posts/ai-revolution",
             "writerId": 1
         },
         {
             "id": 3,
-            "title": "Digital Transformation Trends",
+            "title": "מגמת העברת כספים דיגיטלית",
             "createdAt": "2024-01-17T14:20:00Z",
             "postUrl": "https://example.com/posts/digital-transformation",
             "writerId": 1
         },
         {
             "id": 4,
-            "title": "Sustainable Development Goals",
+            "title": "יעדי פיתוח אפשריים",
             "createdAt": "2024-01-15T09:45:00Z",
             "postUrl": "https://example.com/posts/sustainable-development",
             "writerId": 2
         },
         {
             "id": 5,
-            "title": "Green Energy Solutions",
+            "title": "פתרונות אנרגיה ירוקה",
             "createdAt": "2024-01-16T11:30:00Z",
             "postUrl": "https://example.com/posts/green-energy",
             "writerId": 2
         },
         {
             "id": 6,
-            "title": "Climate Change Impact",
+            "title": "השפעת שינויי האקלים",
             "createdAt": "2024-01-17T15:20:00Z",
             "postUrl": "https://example.com/posts/climate-change",
             "writerId": 2
         },
         {
             "id": 7,
-            "title": "Modern Web Development",
+            "title": "פיתוח WEB מודרני",
             "createdAt": "2024-01-15T10:00:00Z",
             "postUrl": "https://example.com/posts/web-development",
             "writerId": 3
         },
         {
             "id": 8,
-            "title": "JavaScript Best Practices",
+            "title": "תרגילי שיפור בJAVASCRIPT",
             "createdAt": "2024-01-16T13:45:00Z",
             "postUrl": "https://example.com/posts/javascript-practices",
             "writerId": 3
         },
         {
             "id": 9,
-            "title": "Frontend Frameworks Comparison",
+            "title": "מבוא לפיתוח בפייתון",
             "createdAt": "2024-01-17T16:30:00Z",
-            "postUrl": "https://example.com/posts/frontend-frameworks",
+            "postUrl": "https://example.com/posts/python-for-beginners",
             "writerId": 3
         },
         {
             "id": 10,
-            "title": "Data Science Fundamentals",
+            "title": "מבוא למדעי הנתונים",
             "createdAt": "2024-01-15T11:15:00Z",
             "postUrl": "https://example.com/posts/data-science",
             "writerId": 4
         },
         {
             "id": 11,
-            "title": "Machine Learning Applications",
+            "title": "מבוא לפיתוח בינה מלאכותית",
             "createdAt": "2024-01-16T14:20:00Z",
-            "postUrl": "https://example.com/posts/machine-learning",
+            "postUrl": "https://example.com/posts/machine-learning-for-beginners",
             "writerId": 4
         },
         {
             "id": 12,
-            "title": "Big Data Analytics",
+            "title": "טופ 5 חברות מפתחי השבבים",
             "createdAt": "2024-01-17T17:45:00Z",
-            "postUrl": "https://example.com/posts/big-data",
+            "postUrl": "https://example.com/posts/top-chip-makers",
             "writerId": 4
         },
         {
             "id": 13,
-            "title": "Digital Marketing Strategies",
+            "title": "אסטרטגיית שיווק דיגיטלי",
             "createdAt": "2024-01-15T12:30:00Z",
             "postUrl": "https://example.com/posts/digital-marketing",
             "writerId": 5
         },
         {
             "id": 14,
-            "title": "Social Media Optimization",
+            "title": "מבוא לפיתוח אנדרואיד",
             "createdAt": "2024-01-16T15:40:00Z",
-            "postUrl": "https://example.com/posts/social-media",
+            "postUrl": "https://example.com/posts/intro-to-android-development",
             "writerId": 5
         },
         {
             "id": 15,
-            "title": "Content Marketing Tips",
+            "title": "טיפים לווינדוס",
             "createdAt": "2024-01-17T18:15:00Z",
-            "postUrl": "https://example.com/posts/content-marketing",
+            "postUrl": "https://example.com/posts/windows-tips",
             "writerId": 5
         }
     ]
