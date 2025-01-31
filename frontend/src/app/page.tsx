@@ -1,12 +1,12 @@
 import { Suspense } from "react"
 import { WriterCarousel } from "./(cmps)/writers-carousel"
 
+export const dynamic = 'force-dynamic'
 
 const Home = async() => {
 
-  const res =  await fetch('http://localhost:3000/writers/sorted')
+  const res = await fetch(`http://backend:5000/writers/sorted`, { cache: 'no-store' })
   const writersData = await res.json()
-
 
   return <section className="home-page">
     <section className="flex align-center main-title">

@@ -5,6 +5,7 @@ import { WritersService } from './writers.service'
 export class WritersController {
   constructor(private readonly writersService: WritersService) {}
 
+  // Not needed to call this function, the get sorted auto insert demo data if needed
   @Post('add-demo-data')
   async addDemoData() {
     return this.writersService.addDemoData()
